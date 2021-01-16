@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import Button from '@material-ui/core/Button';
-import { makeStyles, withTheme } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 
 const QuestionBox = ({question, options, selected, index, onClickUndo}) => {
     const [answer, setAnswer] = useState(options);

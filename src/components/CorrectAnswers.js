@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button';
 const CorrectAnswers = ({question, correct, index}) => (
     <div className="questionBox">
         <div className="question">{index +1}){question} </div>
-        <Button variant="contained" color="secondary">{correct}</Button>
+        <Button variant="contained" style={{backgroundColor: "#d1e189"}}>{correct}</Button>
     </div>
     
 )
